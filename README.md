@@ -44,10 +44,10 @@ curl http://localhost:4122/
 go-http-server/
   ├── app/
   │   ├── main.go             # Main server implementation
-  │   └── sample_server.txt   # Sample data or configuration
   ├── go.mod                  # Go module file
   ├── README.md               # Project documentation
-  └── start.sh                # Script to start the server
+  ├── start.sh                # Script to start the server in MacOS/Linux
+  └── win_start.sh            # Script to start the server in Windows
 ```
 
 ## Learning Resources
@@ -67,4 +67,3 @@ This project is licensed under the MIT License.
 ---
 
 *Happy coding!*
-
